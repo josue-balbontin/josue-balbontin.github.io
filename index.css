@@ -1,0 +1,27 @@
+body{
+    display:flex
+}
+
+
+
+img {
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+}
+
+p {
+    font-weight:bold;
+}
+
+#buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+}
+
+button {
+    padding: 10px 20px;
+    border-radius: 0.75;
+}
