@@ -1,8 +1,8 @@
-body{
-    display:flex
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
-
-
 
 img {
     border-radius: 50%;
@@ -11,17 +11,21 @@ img {
 }
 
 p {
-    font-weight:bold;
+    font-weight: bold;
 }
 
 #buttons {
     display: flex;
     flex-direction: column;
     gap: 15px;
-
 }
 
 button {
     padding: 10px 20px;
-    border-radius: 0.75;
+    border-radius: 0.75rem;
+    border: none;
+    width: 50vw;
+
+    background-color: #749C75;
+    color: #ffffff;
 }
