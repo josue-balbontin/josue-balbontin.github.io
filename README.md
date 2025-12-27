@@ -4,7 +4,7 @@ Este proyecto es mi página personal tipo CV (Curriculum Vitae) alojada en GitHu
 El objetivo principal es mostrar mi perfil profesional y, al mismo tiempo, servir como un espacio para practicar y demostrar habilidades en **JavaScript Nativo (Vanilla JS)**, HTML y CSS.
 
 ## URL del Proyecto
-Puedes visitar la página en: [josue-balbontin.github.io](https://josue-balbontin.github.io/Code)
+Puedes visitar la página en: [josue-balbontin.github.io](https://josue-balbontin.github.io/Client)
 
 ## Características
 - **Diseño Personalizado**: Estilo propio utilizando CSS.
