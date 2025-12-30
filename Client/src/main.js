@@ -1,3 +1,5 @@
+import { renderNavbar } from './components/navbar/navbar.js';
+
 async function Main() {
     const app = document.getElementById('app');
     
@@ -11,16 +13,19 @@ async function Main() {
         const html = await response.text();
 
         app.innerHTML = html;
+
+        renderNavbar("navbar-container");
         
         console.log('Layout principal cargado');
 
     } catch (error) {
         console.error('Error:', error);
         app.innerHTML = '<h1>Error al cargar la aplicación</h1>';
+        throw new Error('Fallo al cargar el layout principal');
     }
 }
 
-// Iniciar la carga
+
 Main();
 
 
